@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="yzs.animator.yzsanimator.MainActivity">
+
+    <Button
+        android:id="@+id/btn_obj_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Object_Animator"/>
+
+    <Button
+        android:id="@+id/btn_value_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="values_animator"/>
+
+    <Button
+        android:id="@+id/btn_animator_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="animator_set"/>
+
+    <Button
+        android:id="@+id/btn_xml_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="xml_animator"/>
+
+    <Button
+        android:id="@+id/btn_layout_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="layout_animator"/>
+
+    <Button
+        android:id="@+id/btn_view_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="View_animator"/>
+</LinearLayout>
